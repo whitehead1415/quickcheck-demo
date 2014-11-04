@@ -1,0 +1,23 @@
+Configuring asn1-parse-0.8.1...
+Building asn1-parse-0.8.1...
+Preprocessing library asn1-parse-0.8.1...
+[1 of 1] Compiling Data.ASN1.Parse  ( Data/ASN1/Parse.hs, dist/dist-sandbox-1c57bf19/build/Data/ASN1/Parse.o )
+
+Data/ASN1/Parse.hs:30:1: Warning:
+    Module ‘Control.Monad.Error’ is deprecated:
+      Use Control.Monad.Except instead
+
+Data/ASN1/Parse.hs:34:35: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in transformers-0.4.1.0:Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/ASN1/Parse.hs:40:20: Warning:
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Error, but defined in transformers-0.4.1.0:Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+In-place registering asn1-parse-0.8.1...
+Creating package registration file: /tmp/pkgConf-asn1-parse-0.828638.1
+Installing library in
+/home/whitehead/workspace/haskell/.cabal-sandbox/lib/x86_64-linux-ghc-7.8.3/asn1-parse-0.8.1
+Registering asn1-parse-0.8.1...
